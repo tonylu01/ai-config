@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "auggie": {
+      "command": "auggie",
+      "args": ["--mcp", "--mcp-auto-workspace"],
+      "env": {}
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"],
+      "env": {}
+    },
+    "folo": {
+      "command": "npx",
+      "args": ["folo-mcp", "-y"],
+      "env": {
+        "FOLO_SESSION_TOKEN": "<YOUR_FOLO_SESSION_TOKEN>"
+      }
+    }
+  }
+}

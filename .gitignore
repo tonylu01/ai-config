@@ -1,0 +1,53 @@
+# ===== 敏感配置 =====
+# 含有真实 token/key，用 mcp_settings.example.json 替代
+mcp_settings.json
+settings.local.json
+
+# 备份文件（可能含旧配置）
+settings.json.backup*
+settings.json.bak*
+
+# ===== 运行时 / 个人数据 =====
+history.jsonl
+stats-cache.json
+
+# 含有 oauthAccount / userID / mcpServers 等账户数据
+backups/
+
+# 会话与缓存
+cache/
+debug/
+downloads/
+file-history/
+ide/
+paste-cache/
+session-env/
+sessions/
+shell-snapshots/
+
+# 个人项目数据
+projects/
+todos/
+transcripts/
+plans/
+tasks/
+homunculus/
+
+# 遥测与统计
+metrics/
+statsig/
+telemetry/
+usage-data/
+
+# ===== 第三方嵌套仓库（通过包管理器安装，不应重复上传）=====
+plugins/marketplaces/
+skills/gstack/
+
+# 运行时缓存
+plugins/claude-hud/.speed-cache.json
+plugins/claude-hud/.usage-cache.json
+
+# ===== 系统文件 =====
+.DS_Store
+*.swp
+*.swo
