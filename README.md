@@ -1,6 +1,6 @@
 # ai-config
 
-个人 Claude Code 配置文件备份。
+个人 AI 工具配置文件备份（Claude Code + Factory/droid CLI）。
 
 ## 目录结构
 
@@ -24,7 +24,13 @@
 │   └── rtk-rewrite.sh     # RTK 命令重写 hook
 ├── skills/                # 自定义技能
 ├── scripts/               # 辅助脚本
-└── plugins/               # 插件配置
+├── plugins/               # 插件配置
+└── factory/               # Factory (droid CLI) 配置
+    ├── config.json        # 自定义模型配置
+    ├── settings.json      # hooks、主题、模型设置
+    ├── mcp.json           # MCP 服务器配置
+    ├── droids/            # Droid 定义文件
+    └── plugins/           # 插件配置
 ```
 
 ## 使用方式
@@ -37,3 +43,4 @@
 
 - `mcp_settings.json` 含真实 token，已加入 `.gitignore`，请勿提交
 - `history.jsonl`、`projects/`、`sessions/` 等运行时数据同样被排除
+- `factory/auth.v2.*`、`factory/sessions/` 等 Factory 敏感数据已排除

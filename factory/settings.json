@@ -1,0 +1,448 @@
+{
+  "customModels": [
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "GPT-5.4",
+      "id": "custom:gpt-5.4",
+      "index": 0,
+      "model": "gpt-5.4",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Claude Sonnet 4.6 [AG]",
+      "id": "custom:claude-sonnet-4-6-1",
+      "index": 1,
+      "maxOutputTokens": 8192,
+      "model": "claude-sonnet-4-6",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Claude Opus 4.6 [AG]",
+      "id": "custom:claude-opus-4-6-2",
+      "index": 2,
+      "maxOutputTokens": 8192,
+      "model": "claude-opus-4-6",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Claude Haiku 4.5 [AG→Sonnet]",
+      "id": "custom:claude-haiku-4-5-3",
+      "index": 3,
+      "maxOutputTokens": 8192,
+      "model": "claude-haiku-4-5",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Gemini 3.1 Pro [AG]",
+      "id": "custom:gemini-3.1-pro-4",
+      "index": 4,
+      "maxOutputTokens": 8192,
+      "model": "gemini-3.1-pro",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Gemini 3.1 Pro Low [AG]",
+      "id": "custom:gemini-3.1-pro-low-5",
+      "index": 5,
+      "maxOutputTokens": 8192,
+      "model": "gemini-3.1-pro-low",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "Gemini 3 Flash [AG]",
+      "id": "custom:gemini-3-flash-6",
+      "index": 6,
+      "maxOutputTokens": 8192,
+      "model": "gemini-3-flash",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "local",
+      "baseUrl": "http://127.0.0.1:4000",
+      "displayName": "GPT-OSS 120B [AG]",
+      "id": "custom:gpt-oss-120b-7",
+      "index": 7,
+      "maxOutputTokens": 8192,
+      "model": "gpt-oss-120b",
+      "noImageSupport": true,
+      "provider": "anthropic"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "GPT-5.4 Mini",
+      "id": "custom:GPT-5.4-Mini-1",
+      "index": 1,
+      "model": "gpt-5.4-mini",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "GPT-5.3 Codex",
+      "id": "custom:GPT-5.3-Codex-2",
+      "index": 2,
+      "model": "gpt-5.3-codex",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "GPT-5.2 Codex (High)",
+      "id": "custom:GPT-5.2-Codex-(High)-3",
+      "index": 3,
+      "model": "gpt-5.2-codex(high)",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-claude-opus-4-5-thinking",
+      "id": "custom:gemini-claude-opus-4-5-thinking-4",
+      "index": 4,
+      "model": "gemini-claude-opus-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-claude-sonnet-4-5",
+      "id": "custom:gemini-claude-sonnet-4-5-5",
+      "index": 5,
+      "model": "gemini-claude-sonnet-4-5",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-claude-sonnet-4-5-thinking",
+      "id": "custom:gemini-claude-sonnet-4-5-thinking-6",
+      "index": 6,
+      "model": "gemini-claude-sonnet-4-5-thinking",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-3-pro-preview",
+      "id": "custom:gemini-3-pro-preview-7",
+      "index": 7,
+      "model": "gemini-3-pro-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-3-pro-image-preview",
+      "id": "custom:gemini-3-pro-image-preview-8",
+      "index": 8,
+      "model": "gemini-3-pro-image-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-3-flash-preview",
+      "id": "custom:gemini-3-flash-preview-9",
+      "index": 9,
+      "model": "gemini-3-flash-preview",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-2.5-flash",
+      "id": "custom:gemini-2.5-flash-10",
+      "index": 10,
+      "model": "gemini-2.5-flash",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-2.5-flash-lite",
+      "id": "custom:gemini-2.5-flash-lite-11",
+      "index": 11,
+      "model": "gemini-2.5-flash-lite",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gemini-2.5-computer-use-preview-10-2025",
+      "id": "custom:gemini-2.5-computer-use-preview-10-2025-12",
+      "index": 12,
+      "model": "gemini-2.5-computer-use-preview-10-2025",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.2",
+      "id": "custom:gpt-5.2-13",
+      "index": 13,
+      "model": "gpt-5.2",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.2-codex",
+      "id": "custom:gpt-5.2-codex-14",
+      "index": 14,
+      "model": "gpt-5.2-codex",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.1",
+      "id": "custom:gpt-5.1-15",
+      "index": 15,
+      "model": "gpt-5.1",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.1-codex",
+      "id": "custom:gpt-5.1-codex-16",
+      "index": 16,
+      "model": "gpt-5.1-codex",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.1-codex-max",
+      "id": "custom:gpt-5.1-codex-max-17",
+      "index": 17,
+      "model": "gpt-5.1-codex-max",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5.1-codex-mini",
+      "id": "custom:gpt-5.1-codex-mini-18",
+      "index": 18,
+      "model": "gpt-5.1-codex-mini",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5",
+      "id": "custom:gpt-5-19",
+      "index": 19,
+      "model": "gpt-5",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5-codex",
+      "id": "custom:gpt-5-codex-20",
+      "index": 20,
+      "model": "gpt-5-codex",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-5-codex-mini",
+      "id": "custom:gpt-5-codex-mini-21",
+      "index": 21,
+      "model": "gpt-5-codex-mini",
+      "noImageSupport": false,
+      "provider": "openai"
+    },
+    {
+      "apiKey": "dummy-not-used",
+      "baseUrl": "http://127.0.0.1:8317/v1",
+      "displayName": "gpt-oss-120b-medium",
+      "id": "custom:gpt-oss-120b-medium-22",
+      "index": 22,
+      "model": "gpt-oss-120b-medium",
+      "noImageSupport": false,
+      "provider": "openai"
+    }
+  ],
+  "enabledPlugins": {
+    "core@factory-plugins": true
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/luyajun/.superset/hooks/notify.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/luyajun/.superset/hooks/notify.sh"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/luyajun/.superset/hooks/notify.sh"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "/Users/luyajun/.vibe-island/bin/vibe-island-bridge --source droid",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/luyajun/.superset/hooks/notify.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "logoAnimation": "off",
+  "sessionDefaultSettings": {
+    "model": "claude-sonnet-4-6",
+    "reasoningEffort": "xhigh"
+  },
+  "theme": "factory-dark"
+}

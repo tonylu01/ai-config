@@ -1,0 +1,165 @@
+{
+  "custom_models" : [
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.4",
+      "model_display_name" : "GPT-5.4",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.4-mini",
+      "model_display_name" : "GPT-5.4 Mini",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.3-codex",
+      "model_display_name" : "GPT-5.3 Codex",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.2-codex(high)",
+      "model_display_name" : "GPT-5.2 Codex (High)",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-claude-opus-4-5-thinking",
+      "model_display_name" : "gemini-claude-opus-4-5-thinking",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-claude-sonnet-4-5",
+      "model_display_name" : "gemini-claude-sonnet-4-5",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-claude-sonnet-4-5-thinking",
+      "model_display_name" : "gemini-claude-sonnet-4-5-thinking",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-3-pro-preview",
+      "model_display_name" : "gemini-3-pro-preview",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-3-pro-image-preview",
+      "model_display_name" : "gemini-3-pro-image-preview",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-3-flash-preview",
+      "model_display_name" : "gemini-3-flash-preview",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-2.5-flash",
+      "model_display_name" : "gemini-2.5-flash",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-2.5-flash-lite",
+      "model_display_name" : "gemini-2.5-flash-lite",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gemini-2.5-computer-use-preview-10-2025",
+      "model_display_name" : "gemini-2.5-computer-use-preview-10-2025",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.2",
+      "model_display_name" : "gpt-5.2",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.2-codex",
+      "model_display_name" : "gpt-5.2-codex",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.1",
+      "model_display_name" : "gpt-5.1",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.1-codex",
+      "model_display_name" : "gpt-5.1-codex",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.1-codex-max",
+      "model_display_name" : "gpt-5.1-codex-max",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5.1-codex-mini",
+      "model_display_name" : "gpt-5.1-codex-mini",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5",
+      "model_display_name" : "gpt-5",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5-codex",
+      "model_display_name" : "gpt-5-codex",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-5-codex-mini",
+      "model_display_name" : "gpt-5-codex-mini",
+      "provider" : "openai"
+    },
+    {
+      "api_key" : "dummy-not-used",
+      "base_url" : "http://127.0.0.1:8317/v1",
+      "model" : "gpt-oss-120b-medium",
+      "model_display_name" : "gpt-oss-120b-medium",
+      "provider" : "openai"
+    }
+  ]
+}

@@ -47,6 +47,25 @@ skills/gstack/
 plugins/claude-hud/.speed-cache.json
 plugins/claude-hud/.usage-cache.json
 
+# ===== Factory (droid CLI) 敏感/运行时数据 =====
+factory/auth.v2.*
+factory/sessions/
+factory/history.json
+factory/background-*.json
+factory/background-*.json.bak
+factory/artifacts/
+factory/logs/
+factory/certs/
+factory/cache/
+factory/bin/
+factory/snapshots/
+factory/sounds/
+factory/temp/
+factory/tools/
+factory/plugins/cache/
+factory/plugins/marketplaces/
+factory/*.backup*
+
 # ===== 系统文件 =====
 .DS_Store
 *.swp
